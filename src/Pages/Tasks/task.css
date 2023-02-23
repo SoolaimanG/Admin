@@ -1,0 +1,201 @@
+.task__one {
+  background-color: var(--color-white);
+  height: 100vh;
+}
+
+.task__three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.task__three form {
+  display: flex;
+  gap: 10px;
+  background: var(--color-grey);
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: 100ms border;
+}
+
+.task__three form svg {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.task__three form input {
+  height: 25px;
+  width: 200px;
+  border: none;
+  outline: none;
+  caret-color: var(--color-primary);
+  background: var(--color-grey);
+}
+
+.task__three form:hover {
+  border: 2px solid var(--color-primary);
+}
+
+.task__three form input::placeholder {
+  font-size: 1rem;
+}
+
+.task__four h3 {
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.task__five {
+  display: none;
+}
+
+.task__six {
+  padding: 15px 20px;
+  border: none;
+  background: var(--color-primary);
+  border-radius: 10px;
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.task__eight {
+  margin-top: 2rem;
+  transition: 500ms all;
+}
+
+.task__eight:hover {
+  background: transparent;
+  border: 2px dashed var(--color-primary);
+  color: var(--color-black);
+}
+
+.add__nine {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+}
+
+.add__ten {
+  border-radius: 10px;
+  color: var(--color-white);
+  padding: 1rem;
+}
+
+.add__ten:nth-child(odd) {
+  background: var(--color-lightred);
+}
+
+.add__ten:nth-child(even) {
+  background: var(--color-secondary);
+}
+
+.add__ten h2 {
+  text-align: center;
+  cursor: pointer;
+}
+
+.add__eleven p {
+  padding: 1rem 0rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.add__twelve {
+  border-bottom: 2px dashed #fff;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.add__thirteen {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.add__thirteen button {
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add__thirteen svg {
+  font-size: 1.3rem;
+  color: var(--color-black);
+  cursor: pointer;
+}
+
+.uncompleted {
+  background: var(--color-yellow);
+  color: var(--color-white);
+}
+
+.completed {
+  background: var(--color-green);
+  color: var(--color-white);
+}
+
+.add__fourteen h2 {
+  margin-top: 2rem;
+  text-align: center;
+  color: var(--color-secondary);
+}
+
+/* MEDIA QUERY FOR TABS AND MOBILE */
+
+@media (max-width: 830px) {
+  .task__three form {
+    display: none;
+  }
+
+  .task__five {
+    display: initial;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .task__five {
+    display: flex;
+    gap: 10px;
+    background: var(--color-grey);
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: 100ms border;
+  }
+
+  .task__five svg {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .task__five input {
+    height: 25px;
+    width: 100%;
+    border: none;
+    outline: none;
+    caret-color: var(--color-primary);
+    background: var(--color-grey);
+  }
+
+  .task__five:hover {
+    border: 2px solid var(--color-primary);
+  }
+
+  .task__five input::placeholder {
+    font-size: 1rem;
+  }
+
+  .task__six {
+    padding: 10px 15px;
+  }
+}

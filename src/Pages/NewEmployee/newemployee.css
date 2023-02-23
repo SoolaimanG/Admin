@@ -1,0 +1,61 @@
+.newCreate {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.firstone {
+  width: 100%;
+}
+
+.clicker {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: var(--color-white);
+  background: var(--color-primary);
+  text-decoration: none;
+}
+
+.employee-btn button {
+  margin-top: 1.2rem;
+  padding: 10px 0rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: var(--color-white);
+  background: var(--color-primary);
+}
+
+.employee-input input {
+  margin-top: 1rem;
+  padding: 10px 0rem;
+}
+
+.custom-file-upload {
+  display: flex;
+  padding: 8px 15px;
+  gap: 1rem;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--color-black);
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px dashed var(--color-primary);
+  cursor: pointer;
+  margin-top: 1.1rem;
+}
+
+.file {
+  display: none;
+}
+
+/* MEDIA QUERY FOR MOBILES */
+@media (max-width: 767px) {
+  .newCreate {
+    flex-direction: column;
+    gap: 0;
+  }
+}

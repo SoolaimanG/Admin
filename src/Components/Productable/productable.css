@@ -1,0 +1,164 @@
+.productable__two {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1rem;
+}
+
+.productable__three {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 15rem;
+  gap: 1rem;
+  background: var(--color-white);
+  border: 2px solid var(--color-primary);
+}
+
+.productable__three img {
+  width: 10rem;
+  height: 100%;
+  border-right: 2px solid var(--color-primary);
+}
+
+.productable__four {
+  display: grid;
+  align-items: center;
+}
+
+.productable__four h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.productable__four h3 p {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.deleteitem {
+  color: #ff4f4f;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.modal__one {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffe8ec;
+  border-radius: 50%;
+}
+
+.modal__one svg {
+  color: #ff4f4f;
+  font-size: 1.4rem;
+}
+
+.modal h3 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.modal p {
+  color: #ff4f4f;
+}
+
+.modalbtn {
+  display: flex;
+  gap: 1rem;
+}
+
+.deletebtnn,
+.cancelbtn {
+  border: none;
+  font-size: 1.3rem;
+  outline: none;
+  padding: 7px 20px;
+  border-radius: 4px;
+  transition: 500ms all;
+}
+
+.deletebtnn:hover,
+.cancelbtn:hover {
+  box-shadow: 4px 2px 2px #252525;
+}
+
+.deletebtnn {
+  background: #ff4f4f;
+  color: #ffe8ec;
+}
+
+/* MEDIA QUERY FOR MOBILES */
+@media (max-width: 768px) and (min-width: 330px) {
+  .productable__two {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .productable__three {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .productable__three img {
+    width: 100%;
+    height: 20rem;
+    border-right: none;
+    border-bottom: 2px solid var(--color-primary);
+  }
+
+  .productable__four {
+    padding: 0.5rem;
+  }
+
+  .productable__four h3 {
+    font-size: 1.2rem;
+  }
+
+  .productable__four h3 p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .productable__two {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .productable__three {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .productable__three img {
+    width: 100%;
+    height: 20rem;
+    border-right: none;
+    border-bottom: 2px solid var(--color-primary);
+  }
+
+  .productable__four {
+    padding: 0.5rem;
+  }
+
+  .productable__four h3 {
+    font-size: 1.2rem;
+  }
+
+  .productable__four h3 p {
+    font-size: 1rem;
+  }
+}

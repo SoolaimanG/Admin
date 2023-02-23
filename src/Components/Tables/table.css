@@ -1,0 +1,58 @@
+table {
+  border-collapse: collapse;
+}
+
+.table__two {
+  width: 100%;
+}
+
+.table__four td {
+  padding: 5px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.table__five tr {
+  padding: 5px;
+  text-align: center;
+}
+
+.table__five tr td {
+  padding: 5px;
+}
+
+.table__five tr td button {
+  cursor: pointer;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: var(--color-white);
+}
+
+.pending {
+  padding: 8px 15px;
+  background: var(--color-yellow);
+  border: none;
+  outline: none;
+  border-radius: 5rem;
+  color: var(--color-white);
+}
+
+.failed {
+  padding: 8px 15px;
+  background: var(--color-red);
+  border: none;
+  outline: none;
+  border-radius: 5rem;
+  color: var(--color-white);
+}
+
+.success {
+  padding: 8px 15px;
+  background: var(--color-green);
+  border: none;
+  outline: none;
+  border-radius: 5rem;
+  color: var(--color-white);
+}

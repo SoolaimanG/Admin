@@ -1,0 +1,49 @@
+.adminnav-container {
+  width: 100%;
+}
+
+.adminnav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1.5px solid #eee;
+}
+
+.eachlist {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem;
+  cursor: pointer;
+  transition: 500ms all;
+  width: 100%;
+  color: black;
+}
+
+.eachlist:hover {
+  background: #e6f7ff;
+  border-radius: 5px 5px 0px 0px;
+  color: #899bff;
+}
+
+.eachlist svg,
+.eachlist p {
+  font-size: 1.05rem;
+}
+
+.active {
+  border-bottom: 2px solid #899bff;
+  color: #899bff;
+  transition: 500ms;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 767px) {
+  .eachlist {
+    justify-content: center;
+  }
+
+  .eachlist p {
+    display: none;
+  }
+}

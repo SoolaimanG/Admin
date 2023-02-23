@@ -1,0 +1,37 @@
+.topNav__one {
+  text-align: center;
+  width: 100%;
+  background: var(--color-primary);
+  padding: 1rem 0rem;
+  border-radius: 5rem;
+  color: var(--color-white);
+  cursor: pointer;
+  position: sticky;
+  top: 10px;
+  z-index: 99;
+}
+
+.blacko {
+  text-decoration: none !important;
+  animation: animation 750ms alternate infinite;
+  color: var(--color-white);
+}
+
+@keyframes animation {
+  0% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+
+@media (max-width: 748px) {
+  .topNav__one {
+    padding: 0.7rem 0rem;
+  }
+
+  .topNav__one h3 {
+    font-size: 1rem;
+  }
+}

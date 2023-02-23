@@ -1,0 +1,16 @@
+.dropdown {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.searchdoen {
+  margin-top: 3rem;
+}
+
+.error1 {
+  margin-top: 3rem;
+  text-align: center;
+  color: red;
+}

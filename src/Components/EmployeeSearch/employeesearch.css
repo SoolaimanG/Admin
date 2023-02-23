@@ -1,0 +1,138 @@
+.employeesearch__zero {
+  display: flex;
+  padding: 0rem 0.5rem;
+  background: var(--color-grey);
+  border-radius: 10px;
+  height: 50px;
+  width: 100%;
+}
+
+.employeesearch {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.employeesearch__one {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.employeesearch__three {
+  display: flex;
+  background-color: var(--color-white);
+  padding: 0rem 0.5rem;
+  align-items: center;
+  height: 35px;
+  border-radius: 8px;
+  border: 1.5px solid #a9a6a6;
+  width: 300px;
+}
+
+.employeesearch__three input {
+  border: none;
+  outline: none;
+  width: 100%;
+  caret-color: #a9a6a6;
+}
+
+.employeesearch__three svg {
+  color: #a9a6a6;
+  font-size: 1.3rem;
+}
+
+select {
+  padding: 0.5rem;
+  border: 1.5px solid #a9a6a6;
+  border-radius: 10px;
+  accent-color: #a9a6a6;
+  outline: none;
+}
+
+select option {
+  color: #a9a6a6;
+  border-radius: 3px;
+}
+
+/* MEDIA QUERY FOR TABS  */
+
+@media (max-width: 830px) and (min-width: 500px) {
+  .employeesearch__zero {
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  .employeesearch {
+    width: 100%;
+  }
+
+  .employeesearch__one {
+    flex-direction: column;
+  }
+
+  .employeesearch__three {
+    width: 400px;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE */
+@media (max-width: 500px) and (min-width: 330px) {
+  .employeesearch__zero {
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  .employeesearch {
+    width: 100%;
+  }
+
+  .employeesearch__one {
+    flex-direction: column;
+  }
+
+  .employeesearch__three {
+    width: 290px;
+  }
+}
+
+/* MEDIA DEVICES SMALLER DEVICES */
+
+@media (max-width: 331px) and (min-width: 290px) {
+  .employeesearch__zero {
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  .employeesearch {
+    width: 100%;
+  }
+
+  .employeesearch__one {
+    flex-direction: column;
+  }
+
+  .employeesearch__three {
+    width: 240px;
+  }
+}
+
+@media (max-width: 285px) {
+  .employeesearch__zero {
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  .employeesearch {
+    width: 100%;
+  }
+
+  .employeesearch__one {
+    flex-direction: column;
+  }
+
+  .employeesearch__three {
+    width: 200px;
+  }
+}

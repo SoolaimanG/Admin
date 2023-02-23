@@ -1,0 +1,26 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  height: 35px;
+  border-radius: 5px;
+  border: 1.5px solid #dddd;
+  outline: none;
+  padding-left: 0.5rem;
+}
+
+.form-group {
+  margin-top: 0.5rem;
+}
+
+.form__btn {
+  padding: 10px 0px;
+  color: var(--color-white);
+  border: none;
+  font-weight: 500;
+  outline: none;
+  border-radius: 5px;
+  background: var(--color-primary);
+}

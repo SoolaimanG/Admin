@@ -1,0 +1,38 @@
+.manageone__one {
+  margin-top: 2rem;
+  width: 100%;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.btncta {
+  display: flex;
+  justify-content: space-between;
+}
+
+.yessss {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.yessss button {
+  all: unset;
+  padding: 10px 15px;
+  background: var(--color-primary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+.none {
+  display: none;
+}

@@ -1,0 +1,8 @@
+.productcontainer {
+  margin-top: 2.5rem;
+}
+
+.products__wrapper {
+  background: var(--color-grey);
+  height: auto;
+}

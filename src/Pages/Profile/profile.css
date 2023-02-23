@@ -1,0 +1,166 @@
+.profile__zero {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile__two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile__three {
+  width: 10rem;
+}
+
+.profile__three img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.profile__four {
+  line-height: 1.7;
+}
+
+.profile__four h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.profile__four p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #b0abab;
+}
+
+.profile__five {
+  padding: 0.5rem;
+  background: #dddd;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.profile__six {
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1.5px solid #dddd;
+  padding: 1rem;
+}
+
+.profile__seven {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile__seven:nth-child(2) {
+  border-left: 2px solid #dddd;
+  padding-left: 1rem;
+}
+
+.profile__eight {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.profile__eight p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #b0abab;
+}
+
+.profile__eight svg {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #b0abab;
+}
+
+.profile__nine {
+  margin-top: 3rem;
+}
+
+.profile__ten {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile__ten h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.profile__ten button {
+  padding: 7px 15px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.profile__eleven {
+  line-height: 1.5;
+  margin-top: 1.5rem;
+}
+
+.profile__eleven a svg {
+  font-size: 1.4rem;
+  margin: 0rem 0.5rem;
+  color: var(--color-primary);
+}
+
+.profile__eleven p,
+.profile__eleven h4 {
+  color: #b0abab;
+  font-size: 1.3rem;
+}
+
+.profile__eleven p {
+  color: var(--color-black);
+  font-weight: 500;
+}
+
+.profile__thirteen {
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* MEDIA QUERY FOR MOBILE */
+@media (max-width: 480px) {
+  .profile__three {
+    width: 7rem;
+  }
+
+  .profile__four {
+    line-height: 1.2;
+  }
+
+  .profile__six {
+    grid-template-columns: 1fr;
+  }
+
+  .profile__seven {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .profile__seven:nth-child(2) {
+    border-left: none;
+    padding-top: 0.8rem;
+    padding-left: 0rem;
+  }
+
+  .profile__ten h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .profile__ten button {
+    padding: 5px 13px;
+    font-size: 0.9rem;
+  }
+}
